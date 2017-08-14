@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E Krishi Mitra</string>
+    <string name="cropadvisor">फसल सलाहकार</string>
+    <string name="govscheme">सरकारी योजनाएं</string>
+    <string name="mandi">मंडी</string>
+    <string name="soildetection">मिट्टी पहचान</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="clicknew">नई क्लिक करें</string>
+    <string name="upload">अपलोड करें</string>
+    <string name="changelang">भाषा चुनिए</string>
+    <string name="editprofile">प्रोफाइल एडिट</string>
+    <string name="help">में आपकी कैसे मदद कर सकता हूं?</string>
+    <string name="home">होम</string>
+    <string name="schemevideo">योजनाओं को देखें</string>
+    <string name="schemeaudio">योजनाओं को सुनें</string>
+    <string name="proceedinfo">आगे बढ़ें</string>
+
+
+    <string name="chooselang">भाषा चुनें</string>
+    <string-array name="languages">
+        <item>भाषा चुनिए</item>
+        <item>हिंदी</item>
+        <item>मराठी</item>
+        <item>English</item>
+    </string-array>
+
+    <string-array name="question">
+        <item>अपना प्रश्न चुनें</item>
+        <item>क्या आपकी फसल में कोई नुकसान है?</item>
+        <item>फसल की उत्पादकता में सुधार के लिए क्या करना है?</item>
+        <item>अन्य योजनाएं</item>
+
+    </string-array>
+
+    <string-array name="state">
+        <item>राज्य चुनें</item>
+        <item>महाराष्ट्र</item>
+        <item>तमिलनाडु</item>
+        <item>आंध्र प्रदेश</item>
+    </string-array>
+
+    <string-array name="region">
+        <item>क्षेत्र चुनें</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="crop">
+        <item>फसल चुनें</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="disease">
+        <item>रोग चुनें</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="city">
+    <item>शहर चुनें</item>
+    <item>पंजाब</item>
+    <item>केरल</item>
+    <item>मुंबई</item>
+    </string-array>
+
+</resources>

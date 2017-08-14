@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@color/md_white_1000"
+    android:gravity="center"
+    android:paddingTop="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="2dp"
+            android:weightSum="100">
+
+            <TextView
+                android:text="@string/schemename"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:padding="4dp" />
+
+            <TextView
+                android:text="Adoption of organic farming"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvSchemeName"
+                android:layout_weight="1"
+                android:layout_marginLeft="4dp" />
+
+           <TextView
+                android:text="@string/schemedesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:padding="4dp" />
+
+            <TextView
+                android:text="Adoption of organic farming"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvSchemeDesc"
+                android:layout_weight="1"
+                android:layout_marginLeft="4dp" />
+
+            <TextView
+                android:text="@string/schemedate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:padding="4dp" />
+
+            <TextView
+                android:text="Adoption of organic farming"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvDate"
+                android:layout_weight="1"
+                android:layout_marginLeft="4dp" />
+
+            <TextView
+                android:text="@string/schemeoffsite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:padding="4dp" />
+
+            <TextView
+                android:text="Adoption of organic farming"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvSite"
+                android:layout_weight="1"
+                android:layout_marginLeft="4dp" />
+
+            <TextView
+                android:text="@string/schemearea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView14"
+                android:layout_weight="1"
+                android:textStyle="normal|bold"
+                android:textSize="18sp"
+                android:padding="4dp" />
+
+            <TextView
+                android:id="@+id/tvState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:layout_weight="1"
+                android:text="Adoption of organic farming" />
+            <Button
+                android:id="@+id/schemegoto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apply for this scheme"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>

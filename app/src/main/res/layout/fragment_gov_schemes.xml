@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:id="@+id/existedlayout"
+    tools:context="apptroid.e_krushimitra.com.fragments.GovSchemesFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="vertical">
+
+
+        <Spinner
+            android:id="@+id/SpinnerCat"
+            style="@style/SpinnerTheme"
+            android:layout_width="match_parent"
+            android:layout_height="45dp" />
+
+        <Spinner
+            android:id="@+id/SpinnerState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/SpinnerTheme"
+            android:layout_marginTop="6dp"/>
+
+        <LinearLayout
+            android:id="@+id/SchemeAudioVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/SchemeAudio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/schemeaudio"
+                android:textSize="17sp"
+                tools:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/SchemeVideo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/schemevideo"
+                android:textSize="17sp"
+                tools:textAllCaps="false" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/proceed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:text="@string/proceedinfo" />
+
+        <Button
+            android:id="@+id/help"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:text="@string/help"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical">
+
+
+    <!--<Spinner-->
+        <!--android:id="@+id/que_spinner"-->
+        <!--style="@style/SpinnerTheme"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:popupBackground="#666666"/>-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:textSize="17sp"
+        android:id="@+id/questionTextView"
+        android:background="@color/accent"
+        android:textColor="@color/textcolor"
+        android:hint="Enter Question"
+        android:textColorHint="@color/textcolor"
+        />
+
+    <TextView
+        android:id="@+id/didumean"
+        android:layout_height="39dp"
+        android:layout_width="match_parent"
+        android:contextClickable="true"
+        android:text="Did You Mean:"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:visibility="gone"/>
+
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:background="@color/accent"/>
+
+
+</LinearLayout>

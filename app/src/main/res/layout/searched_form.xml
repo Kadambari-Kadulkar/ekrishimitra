@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@color/md_white_1000"
+    android:gravity="center"
+    android:paddingTop="10dp">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="2dp"
+        android:weightSum="100"
+        android:id="@+id/info">
+
+        <TextView
+            android:text="@string/formname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/formName"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:padding="4dp" />
+
+        <TextView
+            android:text="@string/farmername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView8"
+            android:layout_weight="1"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:padding="4dp"
+            android:layout_below="@+id/formName"/>
+
+        <TextView
+            android:text="Adoption of organic farming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvFarmerName"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="8dp"
+            android:layout_below="@+id/formName"
+            android:layout_toRightOf="@+id/textView8"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="2dp"
+        android:weightSum="2"
+        android:layout_below="@+id/textView8">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="View"
+            android:id="@+id/buttView"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Download"
+            android:id="@+id/buttDown"/>
+
+</LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

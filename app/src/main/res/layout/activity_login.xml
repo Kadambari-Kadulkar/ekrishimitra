@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#61bb07"
+        android:alpha="0.9"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:layout_weight="0.12">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/log_in"
+                android:id="@+id/textView3"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textColor="#fff" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/rounded_corner"
+            android:layout_margin="22dp"
+            android:padding="8dp"
+            android:layout_weight="0.16"
+            android:gravity="center">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/etLoginEmail"
+                android:hint="@string/email_address"
+                android:backgroundTint="#ffffff"
+                android:gravity="left|center"
+                android:background="@drawable/rounded_corner" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/rounded_corner"
+            android:padding="8dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:layout_marginTop="-18dp"
+            android:layout_weight="0.16"
+            android:gravity="center">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/etLoginPass"
+                android:hint="@string/password"
+                android:backgroundTint="#ffffff"
+                android:background="@drawable/rounded_corner"
+                android:inputType="textPassword"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:id="@+id/textViewSignup"
+            android:text="Not a member yet? Register"
+            android:textSize="14sp"
+            android:layout_gravity="right"
+            android:layout_marginRight="22dp"
+            android:backgroundTint="@android:color/transparent"
+            android:layout_weight="0.12"
+            android:gravity="center"
+            android:textColor="#fff" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/rounded_corner"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginRight="110dp"
+            android:layout_marginBottom="45dp"
+            android:gravity="center"
+            android:layout_weight="0.17"
+            android:id="@+id/LinLayLoginBtn">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/log_in1"
+                android:id="@+id/textView4"
+                android:textSize="20sp"
+                android:textColor="#61bb07" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
